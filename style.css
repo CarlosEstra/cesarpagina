@@ -203,7 +203,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
   .hero {
-    height: 200px;  /* menos alto en móviles */
+    height: 200px;  
   }
 
   .hero h2 {

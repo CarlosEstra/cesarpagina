@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Contadores carrito en todas las páginas
   actualizarContador();
 
-  // Mostrar productos destacados en index.html
+  // Mostrar productos destacados en index
   const destacados = document.getElementById('destacados-container');
   if (destacados) {
     [productos[0], productos[2]].forEach(p => crearProducto(p, destacados));
