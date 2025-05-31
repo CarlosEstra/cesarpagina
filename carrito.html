@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carrito - EC SPORTS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EC SPORTS</h1>
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="productos.html">PRODUCTOS</a>
+      <a href="carrito.html" id="ver-carrito">🛒 (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tu carrito</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="total">0.00</span></p>
+      <button onclick="finalizarCompra()">Finalizar compra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tel: +52 668 322 0858 | Email: contacto@ecsports.com</p>
+    <p>&copy; 2025 EC.Sports</p>
+  </footer>
+
+  <script src="interactividad.js"></script>
+</body>
+</html>
